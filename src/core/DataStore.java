@@ -57,7 +57,7 @@ public class DataStore {
 			  if (new File(filePath).mkdirs()) {	
 				  System.out.println("New folder created for databases.");
 			  } else {
-				  System.out.println("An error occurred while creating newww database file.");
+				  System.out.println("An error occurred while creating new database file.");
 			  }
 		}
 		filePath = filePath+"\\"+fileName;
